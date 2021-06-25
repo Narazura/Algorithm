@@ -30,6 +30,9 @@ void main(){
     int result = linearSearch(arr,leght,0);
     (result == -1)
     ?printf("Element isn't available in array")
-    :printf("Element is available in index %d",result);
+    :printf("Element is available in index %d\n",result);
+    float x;
+    x = 9,3;
+    printf("%.f",x);
 }
 //If you want to use linear search concept in string, you can use strcmp or strncmp to compare both of string
